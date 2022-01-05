@@ -1,0 +1,96 @@
+# Translation of Plugins - Easy Testimonials - Development (trunk) in English (Australia)
+# This file is distributed under the same license as the Plugins - Easy Testimonials - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-03 01:12:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - Easy Testimonials - Development (trunk)\n"
+
+#: include/lib/GP_Media_Button/gold-plugins-media-button.class.php:155
+msgid "Insert Now"
+msgstr "Insert Now"
+
+#: include/lib/GP_Media_Button/gold-plugins-media-button.class.php:149
+msgid "There are no options for this widget."
+msgstr "There are no options for this widget."
+
+#: include/lib/GP_Media_Button/gold-plugins-media-button.class.php:105
+msgid "Error: You must specify a base and a shortcode."
+msgstr "Error: You must specify a base and a shortcode."
+
+#: include/settings/theme.options.php:66
+msgid "This Theme Requires Pro! Upgrade to Easy Testimonials Pro now"
+msgstr "This Theme Requires Pro! Upgrade to Easy Testimonials Pro now"
+
+#: include/settings/testimonial.options.php:740
+msgid "Themes"
+msgstr "Themes"
+
+#: include/translate_strings.php:4
+msgid "Testimonials"
+msgstr "Testimonials"
+
+#: include/translate_strings.php:3
+msgid "Testimonial"
+msgstr "Testimonial"
+
+#: include/translate_strings.php:5 include/translate_strings.php:6
+msgid "Add New Testimonial"
+msgstr "Add New Testimonial"
+
+#: include/translate_strings.php:7
+msgid "Edit Testimonial"
+msgstr "Edit Testimonial"
+
+#: include/translate_strings.php:8
+msgid "New Testimonial"
+msgstr "New Testimonial"
+
+#: include/translate_strings.php:9
+msgid "View Testimonial"
+msgstr "View Testimonial"
+
+#: easy-testimonials.php:654
+msgid "Testimonial Category"
+msgstr "Testimonial Category"
+
+#: include/settings/theme.options.php:66
+msgid "to unlock all 75+ themes!"
+msgstr "to unlock all 75+ themes!"
+
+#: include/translate_strings.php:10
+msgid "Search Testimonial"
+msgstr "Search Testimonial"
+
+#: include/translate_strings.php:11
+msgid "No testimonials found"
+msgstr "No testimonials found"
+
+#: include/translate_strings.php:12
+msgid "No testimonials found in Trash"
+msgstr "No testimonials found in Trash"
+
+#. Plugin Name of the plugin
+msgid "Easy Testimonials"
+msgstr "Easy Testimonials"
+
+#. Plugin URI of the plugin
+msgid "https://goldplugins.com/our-plugins/easy-testimonials-details/"
+msgstr "https://goldplugins.com/our-plugins/easy-testimonials-details/"
+
+#. Description of the plugin
+msgid "Easy Testimonials - Provides custom post type, shortcode, sidebar widget, and other functionality for testimonials."
+msgstr "Easy Testimonials - Provides custom post type, shortcode, sidebar widget, and other functionality for testimonials."
+
+#. Author of the plugin
+msgid "Gold Plugins"
+msgstr "Gold Plugins"
+
+#. Author URI of the plugin
+msgid "https://goldplugins.com"
+msgstr "https://goldplugins.com"

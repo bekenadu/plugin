@@ -1,0 +1,278 @@
+0000.001 (0) Opened log file at time: Thu, 30 Dec 2021 10:13:20 +0000 on http://localhost/realestate
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.67 WP: 5.8.2 PHP: 8.0.12 (apache2handler, Windows NT BEKEN 10.0 build 22000 (Windows 10) AMD64) MySQL: 10.4.21-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 73.4M | 18M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 33303.6 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.010 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.011 (0) Semaphore (f, wp_options) being initialised
+0000.016 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.020 (0) Set semaphore last lock (f) time to 2021-12-30 10:13:20
+0000.021 (0) Semaphore lock (f) complete
+0000.026 (0) Backup run: resumption=0, nonce=de39c16391ae, file_nonce=de39c16391ae begun at=1640859200 (0s ago), job type=backup
+0000.028 (0) Scheduling a resumption (1) after 300 seconds (1640859500) in case this run gets aborted
+0000.031 (0) Checking if we have a zip executable available
+0000.035 (0) Creation of backups of directories: beginning
+0000.043 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0009.905 (0) Total entities for the zip file: 1647 directories, 10547 files (0 skipped as non-modified), 175.5 MB
+0009.908 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3796, C:\xampp\htdocs\realestate\wp-content\plugins\updraftplus\backup.php)
+0009.927 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0010.131 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 100 files added (on-disk size: 290.9 KB)
+0010.195 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 200 files added (on-disk size: 290.9 KB)
+0010.258 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 300 files added (on-disk size: 290.9 KB)
+0010.318 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 400 files added (on-disk size: 290.9 KB)
+0010.378 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 500 files added (on-disk size: 290.9 KB)
+0010.449 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 600 files added (on-disk size: 290.9 KB)
+0010.514 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 700 files added (on-disk size: 290.9 KB)
+0010.584 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 800 files added (on-disk size: 290.9 KB)
+0010.610 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 10547 files batched, 836 (837) added so far); re-opening (prior size: 290.9 KB)
+0033.157 (0) A useful amount of data was added after this amount of zip processing: 23.8 s (normalised: 23.7 s, rate: 1078.6 KB/s)
+0033.226 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 900 files added (on-disk size: 9121.8 KB)
+0033.288 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1000 files added (on-disk size: 9121.8 KB)
+0033.358 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1100 files added (on-disk size: 9121.8 KB)
+0033.417 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1200 files added (on-disk size: 9121.8 KB)
+0033.446 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 10547 files batched, 409 (1246) added so far); re-opening (prior size: 9121.8 KB)
+0037.207 (0) A useful amount of data was added after this amount of zip processing: 4.9 s (normalised: 4.9 s, rate: 5273 KB/s)
+0037.212 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.8613479137421, normalised_time=4.8548776203376, max_time=37.208785057068, data points known=1, old_max_bytes=26214400, new_max_bytes=120547546)
+0037.297 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1300 files added (on-disk size: 16430 KB)
+0037.364 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1400 files added (on-disk size: 16430 KB)
+0037.424 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1500 files added (on-disk size: 16430 KB)
+0037.484 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1600 files added (on-disk size: 16430 KB)
+0037.543 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1700 files added (on-disk size: 16430 KB)
+0037.604 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1800 files added (on-disk size: 16430 KB)
+0037.675 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 1900 files added (on-disk size: 16430 KB)
+0037.745 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2000 files added (on-disk size: 16430 KB)
+0037.815 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2100 files added (on-disk size: 16430 KB)
+0037.881 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2200 files added (on-disk size: 16430 KB)
+0037.912 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.9 MB, 10547 files batched, 1001 (2247) added so far); re-opening (prior size: 16430 KB)
+0060.302 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2300 files added (on-disk size: 19089 KB)
+0060.430 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2400 files added (on-disk size: 19089 KB)
+0060.578 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2500 files added (on-disk size: 19089 KB)
+0060.680 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2600 files added (on-disk size: 19089 KB)
+0060.767 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2700 files added (on-disk size: 19089 KB)
+0060.833 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2800 files added (on-disk size: 19089 KB)
+0060.896 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 2900 files added (on-disk size: 19089 KB)
+0060.970 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3000 files added (on-disk size: 19089 KB)
+0061.044 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3100 files added (on-disk size: 19089 KB)
+0061.110 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3200 files added (on-disk size: 19089 KB)
+0061.163 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.8 MB, 10547 files batched, 1001 (3248) added so far); re-opening (prior size: 19089 KB)
+0095.762 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3300 files added (on-disk size: 26147.4 KB)
+0095.832 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3400 files added (on-disk size: 26147.4 KB)
+0095.929 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3500 files added (on-disk size: 26147.4 KB)
+0096.021 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3600 files added (on-disk size: 26147.4 KB)
+0096.094 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3700 files added (on-disk size: 26147.4 KB)
+0096.203 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3800 files added (on-disk size: 26147.4 KB)
+0096.289 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 3900 files added (on-disk size: 26147.4 KB)
+0096.370 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4000 files added (on-disk size: 26147.4 KB)
+0096.470 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4100 files added (on-disk size: 26147.4 KB)
+0096.584 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4200 files added (on-disk size: 26147.4 KB)
+0096.646 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5 MB, 10547 files batched, 1001 (4249) added so far); re-opening (prior size: 26147.4 KB)
+0117.404 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4300 files added (on-disk size: 28174.3 KB)
+0117.504 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4400 files added (on-disk size: 28174.3 KB)
+0117.602 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4500 files added (on-disk size: 28174.3 KB)
+0117.694 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4600 files added (on-disk size: 28174.3 KB)
+0117.773 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4700 files added (on-disk size: 28174.3 KB)
+0117.836 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4800 files added (on-disk size: 28174.3 KB)
+0117.891 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 4900 files added (on-disk size: 28174.3 KB)
+0117.975 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5000 files added (on-disk size: 28174.3 KB)
+0118.059 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5100 files added (on-disk size: 28174.3 KB)
+0118.155 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5200 files added (on-disk size: 28174.3 KB)
+0118.202 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.1 MB, 10547 files batched, 1001 (5250) added so far); re-opening (prior size: 28174.3 KB)
+0133.650 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5300 files added (on-disk size: 35786.3 KB)
+0133.763 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5400 files added (on-disk size: 35786.3 KB)
+0133.870 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5500 files added (on-disk size: 35786.3 KB)
+0133.978 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5600 files added (on-disk size: 35786.3 KB)
+0134.084 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5700 files added (on-disk size: 35786.3 KB)
+0134.187 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5800 files added (on-disk size: 35786.3 KB)
+0134.265 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 5900 files added (on-disk size: 35786.3 KB)
+0134.374 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6000 files added (on-disk size: 35786.3 KB)
+0134.481 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6100 files added (on-disk size: 35786.3 KB)
+0134.588 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6200 files added (on-disk size: 35786.3 KB)
+0134.652 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.9 MB, 10547 files batched, 1001 (6251) added so far); re-opening (prior size: 35786.3 KB)
+0145.779 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6300 files added (on-disk size: 44346.3 KB)
+0145.872 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6400 files added (on-disk size: 44346.3 KB)
+0145.979 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6500 files added (on-disk size: 44346.3 KB)
+0146.071 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6600 files added (on-disk size: 44346.3 KB)
+0146.149 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6700 files added (on-disk size: 44346.3 KB)
+0146.218 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6800 files added (on-disk size: 44346.3 KB)
+0146.291 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 6900 files added (on-disk size: 44346.3 KB)
+0146.371 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7000 files added (on-disk size: 44346.3 KB)
+0146.453 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7100 files added (on-disk size: 44346.3 KB)
+0146.536 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7200 files added (on-disk size: 44346.3 KB)
+0146.579 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.1 MB, 10547 files batched, 1001 (7252) added so far); re-opening (prior size: 44346.3 KB)
+0179.356 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7300 files added (on-disk size: 51368.1 KB)
+0179.440 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7400 files added (on-disk size: 51368.1 KB)
+0179.514 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7500 files added (on-disk size: 51368.1 KB)
+0179.592 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7600 files added (on-disk size: 51368.1 KB)
+0179.665 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7700 files added (on-disk size: 51368.1 KB)
+0179.734 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7800 files added (on-disk size: 51368.1 KB)
+0179.840 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 7900 files added (on-disk size: 51368.1 KB)
+0180.007 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8000 files added (on-disk size: 51368.1 KB)
+0180.126 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8100 files added (on-disk size: 51368.1 KB)
+0180.217 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8200 files added (on-disk size: 51368.1 KB)
+0180.262 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.4 MB, 10547 files batched, 1001 (8253) added so far); re-opening (prior size: 51368.1 KB)
+0205.938 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8300 files added (on-disk size: 54487.7 KB)
+0205.997 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8400 files added (on-disk size: 54487.7 KB)
+0206.055 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8500 files added (on-disk size: 54487.7 KB)
+0206.112 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8600 files added (on-disk size: 54487.7 KB)
+0206.172 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8700 files added (on-disk size: 54487.7 KB)
+0206.229 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8800 files added (on-disk size: 54487.7 KB)
+0206.292 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 8900 files added (on-disk size: 54487.7 KB)
+0206.349 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9000 files added (on-disk size: 54487.7 KB)
+0206.408 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9100 files added (on-disk size: 54487.7 KB)
+0206.470 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9200 files added (on-disk size: 54487.7 KB)
+0206.509 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.6 MB, 10547 files batched, 1001 (9254) added so far); re-opening (prior size: 54487.7 KB)
+0225.779 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9300 files added (on-disk size: 57448.3 KB)
+0225.857 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9400 files added (on-disk size: 57448.3 KB)
+0225.960 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9500 files added (on-disk size: 57448.3 KB)
+0226.032 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9600 files added (on-disk size: 57448.3 KB)
+0226.092 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9700 files added (on-disk size: 57448.3 KB)
+0226.153 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9800 files added (on-disk size: 57448.3 KB)
+0226.219 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 9900 files added (on-disk size: 57448.3 KB)
+0226.278 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 10000 files added (on-disk size: 57448.3 KB)
+0226.348 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 10100 files added (on-disk size: 57448.3 KB)
+0226.417 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 10200 files added (on-disk size: 57448.3 KB)
+0226.452 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8 MB, 10547 files batched, 1001 (10255) added so far); re-opening (prior size: 57448.3 KB)
+0250.730 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 10300 files added (on-disk size: 59466.3 KB)
+0250.790 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 10400 files added (on-disk size: 59466.3 KB)
+0250.850 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.tmp: 10500 files added (on-disk size: 59466.3 KB)
+0260.981 (0) The scheduled resumption is within 45 seconds - will reschedule
+0260.987 (0) Rescheduling resumption 1: moving to 345 seconds from now (1640859806)
+0260.994 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0261.199 (0) Creating zip file manifest (C:\xampp\htdocs\realestate/wp-content/updraft/backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.list-temp.tmp)
+0261.310 (0) Successfully created zip file manifest (size: 866889)
+0262.314 (0) Created plugins zip (0) - 63030.1 KB in 262.3 s (240.3 KB/s) (sha1: bdf3c5c78ffaaaf65d6a747672ab33e7200680ca, sha256: 1cbfa4c12d5958a443a461040654e924b9c65095b292d5eeb769427aed64ec9a)
+0262.323 (0) Beginning creation of dump of themes (split every: 400 MB)
+0264.143 (0) Total entities for the zip file: 479 directories, 1629 files (0 skipped as non-modified), 49.8 MB
+0264.145 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3796, C:\xampp\htdocs\realestate\wp-content\plugins\updraftplus\backup.php)
+0264.210 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0264.252 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0264.299 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0264.346 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.1 MB, 382 (382) files added so far); re-opening (prior size: 0 KB)
+0275.422 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 400 files added (on-disk size: 1937.5 KB)
+0275.485 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 500 files added (on-disk size: 1937.5 KB)
+0275.545 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 600 files added (on-disk size: 1937.5 KB)
+0275.608 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 700 files added (on-disk size: 1937.5 KB)
+0275.670 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 800 files added (on-disk size: 1937.5 KB)
+0275.735 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 900 files added (on-disk size: 1937.5 KB)
+0275.793 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 1000 files added (on-disk size: 1937.5 KB)
+0275.852 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 1100 files added (on-disk size: 1937.5 KB)
+0275.923 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 1200 files added (on-disk size: 1937.5 KB)
+0275.983 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 1300 files added (on-disk size: 1937.5 KB)
+0276.032 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (38 MB, 1629 files batched, 1001 (1383) added so far); re-opening (prior size: 1937.5 KB)
+0302.391 (1) Opened log file at time: Thu, 30 Dec 2021 10:18:23 +0000 on http://localhost/realestate
+0302.393 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.67 WP: 5.8.2 PHP: 8.0.12 (apache2handler, Windows NT BEKEN 10.0 build 22000 (Windows 10) AMD64) MySQL: 10.4.21-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 64.4M | 8M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0302.396 (1) Free space on disk containing Updraft's temporary directory: 33556.2 MB
+0302.423 (1) Requesting backup semaphore lock (de39c16391ae)
+0302.428 (1) [Debug] Lock option (updraft_lock_de39c16391ae, wp_options) was created in the database
+0302.429 (1) [Info] Lock (updraft_lock_de39c16391ae, wp_options) acquired after initialising the database
+0302.434 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1640859476.1, time_now=1640859503, diff=26, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0302.435 (1) A new resumption will be scheduled to prevent the job ending
+0302.437 (1) Rescheduling resumption 2: moving to 465 seconds from now (1640859968)
+0302.444 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 345 + 120 = 465
+0306.856 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 1400 files added (on-disk size: 14525 KB)
+0306.900 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 1500 files added (on-disk size: 14525 KB)
+0306.950 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.tmp: 1600 files added (on-disk size: 14525 KB)
+0311.568 (0) Creating zip file manifest (C:\xampp\htdocs\realestate/wp-content/updraft/backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.list-temp.tmp)
+0311.591 (0) Successfully created zip file manifest (size: 121873)
+0311.841 (0) Created themes zip (0) - 16563.5 KB in 49.5 s (334.6 KB/s) (sha1: c7d9710a91c2d6cf33b9695dfe6bd525ca6d13a9, sha256: 938ef5e8c91574ce1306054f318a7ab8726497ab20db158f327d47c2b8acb955)
+0311.854 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0311.857 (0) Looking for candidates to backup in: C:\xampp\htdocs\realestate/wp-content/uploads
+0311.860 (0) finding files: 2021: adding to list (1)
+0311.863 (0) finding files: elementor: adding to list (2)
+0311.866 (0) finding files: forminator: adding to list (3)
+0311.868 (0) finding files: smush-webp-test.png: adding to list (4)
+0311.871 (0) finding files: wpforms: adding to list (5)
+0311.874 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0312.012 (0) Total entities for the zip file: 10 directories, 101 files (0 skipped as non-modified), 15.4 MB
+0312.016 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3796, C:\xampp\htdocs\realestate\wp-content\plugins\updraftplus\backup.php)
+0312.099 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0313.125 (0) Creating zip file manifest (C:\xampp\htdocs\realestate/wp-content/updraft/backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-uploads.zip.list-temp.tmp)
+0313.129 (0) Successfully created zip file manifest (size: 5240)
+0313.451 (0) Created uploads zip (0) - 15342.8 KB in 1.6 s (9818.1 KB/s) (sha1: f8521cbb397e3a37a4dc24dabc93c87bb852464e, sha256: cfab4b61b7381dcfd297caa7beac160285fdadba5c5dea2846399d9488aef74d)
+0313.458 (0) Beginning backup of other directories found in the content directory (index: 0)
+0313.459 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0313.461 (0) Looking for candidates to backup in: C:\xampp\htdocs\realestate/wp-content
+0313.463 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0313.464 (0) finding files: backups-dup-lite: skipping: excluded by options (glob)
+0313.466 (0) finding files: index.php: adding to list (1)
+0313.468 (0) finding files: languages: adding to list (2)
+0313.469 (0) finding files: litespeed: adding to list (3)
+0313.471 (0) finding files: plugins: skipping: this is the plugins directory
+0313.473 (0) finding files: smush-webp: adding to list (4)
+0313.474 (0) finding files: themes: skipping: this is the themes directory
+0313.476 (0) finding files: updraft: skipping: this is the updraft directory
+0313.477 (0) finding files: upgrade: skipping: excluded by options
+0313.479 (0) finding files: uploads: skipping: this is the uploads directory
+0313.920 (0) Total entities for the zip file: 7 directories, 564 files (0 skipped as non-modified), 25.9 MB
+0313.922 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3796, C:\xampp\htdocs\realestate\wp-content\plugins\updraftplus\backup.php)
+0313.979 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0314.034 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0314.087 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0314.149 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0314.218 (0) Zip: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0325.707 (0) The time we have been running (325.7) is approaching the resumption interval (345) - increasing resumption interval to 356
+0325.732 (0) Creating zip file manifest (C:\xampp\htdocs\realestate/wp-content/updraft/backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-others.zip.list-temp.tmp)
+0325.744 (0) Successfully created zip file manifest (size: 37486)
+0325.929 (0) Created others zip (0) - 6884.2 KB in 12.4 s (553.4 KB/s) (sha1: 37c2d614f576840b207d4bbce485e4689fc2caed, sha256: 362f96a544e319e362c284714b462a0a7b98a9cb3ad09f6336a2ddc50b72c826)
+0325.957 (0) Saving backup status to database (elements: 8)
+0325.969 (0) No database backup (wp) - not part of this run
+0325.977 (0) backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0325.980 (0) backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0325.983 (0) backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0325.986 (0) backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-others.zip: others: This file has not yet been successfully uploaded: will queue
+0325.989 (0) Saving backup history. Total backup size: 99.4 MB
+0325.997 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0326.003 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0326.005 (0) No remote despatch: user chose no remote backup service
+0326.008 (0) Recording as successfully uploaded: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip
+0326.015 (0) Deleting zip manifest (backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-plugins.zip.list.tmp)
+0326.018 (0) Recording as successfully uploaded: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip
+0326.025 (0) Deleting zip manifest (backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-themes.zip.list.tmp)
+0326.028 (0) Recording as successfully uploaded: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-uploads.zip
+0326.035 (0) Deleting zip manifest (backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-uploads.zip.list.tmp)
+0326.038 (0) Recording as successfully uploaded: backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-others.zip
+0326.045 (0) Deleting zip manifest (backup_2021-12-30-1313_Beken_Real_Estate_Consultancy__de39c16391ae-others.zip.list.tmp)
+0326.051 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0326.055 (0) Number of backup sets in history: 4; groups (db): 1
+0326.057 (0) Examining (for databases) backup set with group_id=0, nonce=de39c16391ae, datestamp=1640859200 (Dec 30 2021 10:13:20)
+0326.059 (0) Examining (for databases) backup set with group_id=0, nonce=061527de5ece, datestamp=1640859196 (Dec 30 2021 10:13:16)
+0326.059 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0326.062 (0) Examining (for databases) backup set with group_id=0, nonce=eb0e8eeda965, datestamp=1640767075 (Dec 29 2021 08:37:55)
+0326.062 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0326.064 (0) Examining (for databases) backup set with group_id=0, nonce=9a12c004cf35, datestamp=1640689934 (Dec 28 2021 11:12:14)
+0326.064 (0) Number of backup sets in history: 4; groups (files): 1
+0326.067 (0) Examining (for files) backup set with nonce=de39c16391ae, datestamp=1640859200 (Dec 30 2021 10:13:20)
+0326.067 (0) This backup set is the backup set just made, so will not be deleted.
+0326.069 (0) This backup set is the backup set just made, so will not be deleted.
+0326.070 (0) This backup set is the backup set just made, so will not be deleted.
+0326.070 (0) This backup set is the backup set just made, so will not be deleted.
+0326.070 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0326.073 (0) Examining (for files) backup set with nonce=061527de5ece, datestamp=1640859196 (Dec 30 2021 10:13:16)
+0326.073 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0326.075 (0) Examining (for files) backup set with nonce=eb0e8eeda965, datestamp=1640767075 (Dec 29 2021 08:37:55)
+0326.076 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0326.078 (0) Examining (for files) backup set with nonce=9a12c004cf35, datestamp=1640689934 (Dec 28 2021 11:12:14)
+0326.078 (0) plugins: over retain limit (2); will delete this file entity
+0326.078 (0) themes: over retain limit (2); will delete this file entity
+0326.078 (0) uploads: over retain limit (2); will delete this file entity
+0326.078 (0) others: over retain limit (2); will delete this file entity
+0326.078 (0) Delete file: backup_2021-12-28-1412_Beken_Real_Estate_Consultancy__9a12c004cf35-plugins.zip, service=none
+0326.082 (0) Deleting local copy (backup_2021-12-28-1412_Beken_Real_Estate_Consultancy__9a12c004cf35-plugins.zip)
+0326.096 (0) Delete file: backup_2021-12-28-1412_Beken_Real_Estate_Consultancy__9a12c004cf35-themes.zip, service=none
+0326.101 (0) Deleting local copy (backup_2021-12-28-1412_Beken_Real_Estate_Consultancy__9a12c004cf35-themes.zip)
+0326.134 (0) Delete file: backup_2021-12-28-1412_Beken_Real_Estate_Consultancy__9a12c004cf35-uploads.zip, service=none
+0326.138 (0) Deleting local copy (backup_2021-12-28-1412_Beken_Real_Estate_Consultancy__9a12c004cf35-uploads.zip)
+0326.148 (0) Delete file: backup_2021-12-28-1412_Beken_Real_Estate_Consultancy__9a12c004cf35-others.zip, service=none
+0326.151 (0) Deleting local copy (backup_2021-12-28-1412_Beken_Real_Estate_Consultancy__9a12c004cf35-others.zip)
+0326.161 (0) The time we have been running (326.2) is approaching the resumption interval (356) - increasing resumption interval to 357
+0326.167 (0) This backup set is now empty; will remove from history
+0326.172 (0) Deleting log file (log.9a12c004cf35.txt)
+0326.176 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0326.186 (0) Resume backup (de39c16391ae, 0): finish run
+0326.192 (0) Decremented the semaphore (f) by 1
+0326.196 (0) Semaphore (f) unlocked
+0326.199 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0326.211 (0) Fetching RSS news feed
+0326.217 (0) Fetched RSS news feed; result is a: SimplePie
+0326.251 (0) Sending email ('Files only (database was not part of this particular schedule) (Full backup)') report (attachments: 0, size: 0 KB) to: it.be...
+0326.253 (0) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Invalid address:  (From): wordpress@localhost
+0326.255 (0) The backup apparently succeeded and is now complete
