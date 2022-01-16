@@ -10,4 +10,30 @@ License: GPLv2 or later
 Text Domain: gallery
 */
 
-?>
+if ( ! defined( 'ABSPATH' ) ) {
+    die;
+}
+
+
+class gallery {
+    // methods
+    function activate(){
+
+    }
+    function deactivate(){
+
+    }
+    function uninstall(){
+
+    }
+
+}
+if (class_exists( 'gallery' ) ){
+    $galleryPlugin = new gallery();
+}
+
+//activation
+regiter_activation_hook(--FILE__,array( b ))
+
+
+

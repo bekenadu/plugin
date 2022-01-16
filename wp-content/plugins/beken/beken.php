@@ -25,6 +25,11 @@ function displayCode(){
     require_once plugin_dir_path(__FILE__).'setting/st.php';
 
 }
+function register_mysettings() { // whitelist options
+    register_setting( 'myoption-group', 'new_option_name' );
+    register_setting( 'myoption-group', 'some_other_option' );
+    register_setting( 'myoption-group', 'option_etc' );
+  }
 function pluginTest_add_menu(){
     add_menu_page( 
         "contact form", 
@@ -36,6 +41,11 @@ function pluginTest_add_menu(){
         '69'
     );
 }
-
+if (is_admin()){
 add_action('admin_menu', 'pluginTest_add_menu');
+add_action('admin_init', 'register_mysettings');
+
+
+}
+
 ?>
