@@ -25,7 +25,7 @@ function displayCode(){
     require_once plugin_dir_path(__FILE__).'setting/st.php';
 
 }
-function register_mysettings() { // whitelist options
+function register_mysettings() { 
     register_setting( 'myoption-group', 'new_option_name' );
     register_setting( 'myoption-group', 'some_other_option' );
     register_setting( 'myoption-group', 'option_etc' );

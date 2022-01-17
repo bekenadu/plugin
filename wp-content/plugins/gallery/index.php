@@ -1,4 +1,0 @@
-<?php
-//silene is golden.
-
-
