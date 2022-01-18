@@ -1,29 +1,29 @@
 <?php
 /**
  * Plugin Name: 	test
- * Plugin URI:		http://jeroensormani.com/
+ * Plugin URI:		http://bbb.com/
  * Description:		Add a media selector to your settings page.
  * Version: 		0.0.1
- * Author: 			Jeroen Sormani
- * Author URI: 		http://www.jeroensormani.com/
+ * Author: 			Beken
+ * Author URI: 		http://www.Beken.com/
  */
 
-add_action( 'admin_menu', 'register_media_selector_settings_page' );
+add_action( 'admin_menu', 'register_media_selector_settings_pages' );
 
-function register_media_selector_settings_page() {
+function register_media_selector_settings_pages() {
     add_menu_page( 
         "contact form", 
         "TEST Form", 
         "manage_options", 
         "/test",
-        "media_selector_settings_page_callback",
+        "media_selector_settings_page_callbacks",
         "dashicons-cover-image",
         '69'
     );
 	// add_submenu_page( 'options-general.php', 'Media Selector', 'Media Selector', 'manage_options', 'media-selector', 'media_selector_settings_page_callback' );
 }
 
-function media_selector_settings_page_callback() {
+function media_selector_settings_page_callbacks() {
 
 	// Save attachment ID
 	if ( isset( $_POST['submit_image_selector'] ) && isset( $_POST['image_attachment_id'] ) ) :
@@ -35,19 +35,26 @@ function media_selector_settings_page_callback() {
 	?><form method='post'>
         <style>
             .img{
-                height : 100px;
-                width: 100px;
+                height : 200px;
+                width: 200px;
+				padding :5px
             }
             </style>
-			<h1>Slider Plugin</h1>
-			<h3>Select Attribute For Your Slider Carsoule</h3></br>
-			<label for="border">Border:</label>
-  			<input type="number" id="speed" name="speed"><br><br>
-			  <label for="speed">Speed:</label>
-  			<input type="number" id="shadow" name="shadow"><br><br>
-			  <label for="shadow">Shadow:</label>
-  			<input type="number" id="border" name="border"><br><br>
+			
 		<div class='image-preview-wrapper' id="body">
+		<h1>Beken Slider</h1>
+			<h3>Select Attribute For Your Slider Carousel</h3>
+			<p> Beken Slider is the most powerful and intuitive WordPress plugin to create sliders which was never possible before.</p></br><br>
+
+			<label for="SliderTheme"><strong>Slider Theme</strong></label>
+  			<input type="Text" id="SliderTheme" name="SliderTheme" value ="Defualt" ><br><br>
+			<label for="SliderDimention"><strong>Slider Dimention:</strong></label>
+			<input type="number" id="SliderDimention" name="SliderDimention">*
+  			<input type="number" id="SliderDimention1" name="SliderDimention1">px<br><br>
+			  <label for="speed"><strong>Slider Speed:</strong></label>
+  			<input type="number" id="shadow" name="shadow"><br><br>
+			  <label for="shadow"><strong>Shadow:</strong></label>
+  			<input type="number" id="border" name="border"><br><br>
 	
         </div>
 		<input id="upload_image_button" type="button" class="button" value="<?php _e( 'Upload image' ); ?>" />
@@ -58,9 +65,9 @@ function media_selector_settings_page_callback() {
 }
 
 
-add_action( 'admin_footer', 'media_selector_print_scripts' );
+add_action( 'admin_footer', 'media_selector_print_script' );
 
-function media_selector_print_scripts() {
+function media_selector_print_script() {
 
 	$my_saved_attachment_post_id = get_option( 'media_selector_attachment_id', 0 );
 
