@@ -1,5 +1,4 @@
 <div class="wrap">
-    <h1>This is Gallery Plugin</h1>
-    <p style="text-align:center; font-size:2rem;"> <span style="color:pink;">shortcode : </span> [gallary_shortcode]</p></br>
+    <h3 style="text-align:center; font-size:2rem;"> <span style="color:pink;">shortcode : </span> [gallary_shortcode]</h3></br>
     
 </div>

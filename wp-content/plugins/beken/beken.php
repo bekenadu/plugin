@@ -81,6 +81,7 @@ function media_selector_settings_page_callbacks() {
 		<input type='hidden' name='image_attachment_id' id='image_attachment_id' value='<?php echo get_option( 'media_selector_attachment_id' ); ?>'>
 		<input type="submit" name="submit_image_selector" value="Save" class="button-primary">
 	</form><?php
+     require_once plugin_dir_path(__FILE__).'setting/st.php';
 
 }
 
@@ -130,20 +131,31 @@ function media_selector_print_script() {
 					// We set multiple to false so only get one image from the uploader
                     var selection = file_frame.state().get('selection');
 
-                var attachment_ids = selection.map( function( attachment ) {
+                $attachment_ids = selection.map( function( attachment ) {
                     attachment = attachment.toJSON();
                     return attachment;
                 });
-                console.log(attachment_ids);
+                console.log( $attachment_ids );
+                 $len =  $attachment_ids .length;
+                 <?php
+                 $lens = $len; 
+                    $urls = array(  );
+                    for($i=0; $i<$len; $i++){
 
-                    for(var i=0; i<attachment_ids.length;i++){
+                        $urls[i] =   $attachment_ids [i].url;
+                    }
+                    ?>
+
+                    for(var i=0; i<len;i++){
                         var img = document.createElement('img');
                         img.classList.add("img");
-            img.src = attachment_ids[i].url;
+            img.src =  $attachment_ids [i].url;
            down =  document.getElementById('body').appendChild(img);
+
             
                         
                     }
+                  
 
                    
 
