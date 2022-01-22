@@ -1,5 +1,5 @@
 
-  <div id="carousel" class="carousel slide" data-ride="carousel">
+  <div id="carousel" class="carousel slide  sliderr" data-ride="carousel">
 
     <ol class="carousel-indicators">
 
