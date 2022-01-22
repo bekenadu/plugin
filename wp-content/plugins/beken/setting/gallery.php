@@ -1,5 +1,5 @@
 
-  <div id="carousel" class="carousel slide  sliderr" data-ride="carousel">
+  <div id="carousel" class="carousel slide" data-ride="carousel">
 
     <ol class="carousel-indicators">
 
@@ -7,21 +7,16 @@
     <div class="carousel-inner" action="/action_page.php">
     <div class="carousel-item active">
 
-                 <div class="carousel-item active">
-                <img class="d-block" src="https://unsplash.com/photos/6w_dYdazo20/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8amV0fHwwfHx8fDE2NDE5Mjg1ODM&force=true" alt="image loading " width = ${screen.width} height=${screen.height-100}>
-                </div>
-                <div class="carousel-item active">
-                <img class="d-block" src="https://unsplash.com/photos/6w_dYdazo20/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8amV0fHwwfHx8fDE2NDE5Mjg1ODM&force=true" alt="image loading " width = ${screen.width} height=${screen.height-100}>
-                </div>
-                <div class="carousel-item active">
-                <img class="d-block" src="https://unsplash.com/photos/R9OS29xJb-8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8ZGVzZXJ0fHwwfHx8fDE2NDE5OTYxOTk&force=true" alt="image loading " width = ${screen.width} height=${screen.height-100}>
-                </div>
-                <div class="carousel-item active">
-                <img class="d-block" src="https://unsplash.com/photos/sYffw0LNr7s/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8c3VucmlzZXx8MHx8fHwxNjQxOTkwODUx&force=true" alt=" image loading" width = ${screen.width} height=${screen.height-100}>
-                </div>
-                <div class="carousel-item active">
-                <img class="d-block" src="https://unsplash.com/photos/wt5jg8_WrJg/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Nnx8Ym9keWJ1aWxkaW5nfHwwfHx8fDE2NDE5OTcxOTY&force=true" alt="image loading " width = ${screen.width} height=${screen.height-100}>
-                </div>
+     
+              
+                <?php 
+          
+          for($x =0 ;$x<$;$x++){
+              echo '  <div class="carousel-item active">
+              <img class="d-block" src="'.$urls[$x].'" >
+              </div>';
+          }
+          ?>
 
     </div>
     <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
